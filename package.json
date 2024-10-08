@@ -1,0 +1,18 @@
+{
+  "name": "smaller-cli",
+  "version": "1.1.0",
+  "description": "A tool to bundle and optimize JavaScript files",
+  "main": "optimize.js",
+  "bin": {
+    "smaller": "./optimize.js"
+  },
+  "scripts": {
+    "test": "npx smaller-cli test.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "esbuild": "^0.12.15",
+    "terser": "^5.7.0"
+  }
+}
